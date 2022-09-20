@@ -3,13 +3,17 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
-
-Console.WriteLine("Введите число: ");
+Console.WriteLine("Введите число 1: ");
 int a = Convert.ToInt32(Console.ReadLine());
-int b;
-if (a > b)
+Console.WriteLine("Введите число 2: ");
+int b = Convert.ToInt32(Console.ReadLine());
+
+if(a > b)
 {
-        Console.WriteLine("наибольшее число = : " + a);
+    Console.WriteLine("наибольшее число = " + a);
 }
 
-Console.WriteLine("наибольшее число = : " + b);
+else 
+{
+    Console.WriteLine("наибольшее число = " + b);
+}
