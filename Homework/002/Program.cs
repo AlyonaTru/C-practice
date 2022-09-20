@@ -11,9 +11,11 @@ int b = Convert.ToInt32(Console.ReadLine());
 if(a > b)
 {
     Console.WriteLine("наибольшее число = " + a);
+    Console.WriteLine("наименьшее число = " + b);
 }
 
 else 
 {
     Console.WriteLine("наибольшее число = " + b);
+    Console.WriteLine("наименьшее число = " + a);
 }
