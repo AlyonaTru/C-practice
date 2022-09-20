@@ -6,6 +6,11 @@ Console.Write("Введите число: ");
 int number2 = Convert.ToInt32(Console.ReadLine());
 number2 = Math.Abs(number2);
 int number = 1;
+if (number2 == 1) 
+{
+    Console.WriteLine("ошибка ввода");
+}
+
 
 while (number <= number2)
 {
@@ -18,3 +23,4 @@ while (number <= number2)
 
 }
 Console.WriteLine();
+
